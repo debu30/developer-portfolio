@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+section{margin-top: 130px;}
 
 /* header and navigation styles */
 nav {
@@ -42,12 +43,13 @@ nav li {
 
 }
 
-.header{
+.header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
+
 /* banner style */
 .banner {
     display: flex;
@@ -75,44 +77,86 @@ nav li {
 }
 
 /* main section */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section style */
-.about{
-margin-top: 130px;
-background: #FFF8F3;
-border-radius: 10px;
-padding: 130px 150px;
+
+.about {
+    
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
 
 }
-.section-title{
-text-align: center;
-margin-bottom: 30px;
-font-size: 35px;
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
 }
 
-.section-description{
-text-align: justify;
-color: #757575;
-margin-bottom: 30px;
-font-size: 18px;
+.section-description {
+    text-align: justify;
+    color: #757575;
+    margin-bottom: 30px;
+    font-size: 18px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     text-align: center;
     justify-content: space-around;
 }
-.info-title{
+
+.info-title {
     color: #757575;
     font-weight: 400;
     font-weight: 400;
-font-size: 20px;
+    font-size: 20px;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
-    
-font-size: 20px;
-color: #474747;
+
+    font-size: 20px;
+    color: #474747;
 }
+
+/* what i do styles */
+.what-i-do {
+    margin-top: 130px;
+
+}
+
+.skills-container {
+    display: flex;
+    margin-right: 20px;
+    gap: 24px;
+   
+}
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Resume Style */
+
+
